@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>4/5 Computer TUPP</title>
 
-<!-- Google Font -->
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
 
 <style>
@@ -13,10 +12,9 @@ body{
     margin:0;
     font-family:'Kanit',sans-serif;
     background:linear-gradient(135deg,#eef2f3,#d9e2ec);
-    color:#333;
 }
 
-/* ===== HEADER ===== */
+/* HEADER */
 header{
     background:linear-gradient(135deg,#1e3c72,#2a5298);
     color:#fff;
@@ -28,44 +26,34 @@ header{
 header h1{
     margin:0;
     font-size:42px;
-    font-weight:600;
     letter-spacing:2px;
-    text-transform:uppercase;
-}
-
-header h2{
-    margin:12px 0 0;
-    font-size:22px;
-    font-weight:400;
 }
 
 header p{
-    margin-top:8px;
+    margin-top:10px;
     font-size:18px;
     opacity:0.9;
 }
 
-/* ===== CONTENT ===== */
+/* CONTENT */
 .container{
     width:95%;
     max-width:1400px;
     margin:40px auto;
 }
 
-/* GRID */
 .gallery{
     display:grid;
     grid-template-columns:repeat(6,1fr);
     gap:20px;
 }
 
-/* CARD */
 .card{
     background:#fff;
     border-radius:18px;
     overflow:hidden;
     box-shadow:0 10px 20px rgba(0,0,0,0.18);
-    transition:transform .35s ease, box-shadow .35s ease;
+    transition:.3s;
 }
 
 .card:hover{
@@ -80,7 +68,7 @@ header p{
     object-fit:cover;
 }
 
-/* ===== FOOTER ===== */
+/* FOOTER */
 footer{
     margin-top:40px;
     padding:20px;
@@ -89,17 +77,14 @@ footer{
     background:rgba(255,255,255,0.75);
 }
 
-/* ===== RESPONSIVE ===== */
+/* RESPONSIVE */
 @media (max-width:1024px){
     .gallery{ grid-template-columns:repeat(3,1fr); }
-    header h1{ font-size:36px; }
 }
 
 @media (max-width:600px){
-    .gallery{ grid-template-columns:repeat(2,1fr); gap:14px; }
+    .gallery{ grid-template-columns:repeat(2,1fr); }
     header h1{ font-size:28px; }
-    header h2{ font-size:18px; }
-    header p{ font-size:16px; }
 }
 </style>
 </head>
@@ -107,60 +92,59 @@ footer{
 <body>
 
 <header>
-    <h1>M.4/5 Computer TUPP</h1>
+    <h1>4/5 Computer TUPP</h1>
 </header>
 
 <div class="container">
 <div class="gallery">
 
-<a href="1.html"><div class="card"><img src="https://pic.in.th/image/1.5DZqoP"></div></a>
-<a href="2.html"><div class="card"><img src="https://pic.in.th/image/2.5DZmJc"></div></a>
-<a href="3.html"><div class="card"><img src="https://pic.in.th/image/3.5DZJFL"></div></a>
-<a href="4.html"><div class="card"><img src="https://pic.in.th/image/4.5DZf9A"></div></a>
-<a href="5.html"><div class="card"><img src="https://pic.in.th/image/5.5DZ3Tp"></div></a>
-<a href="6.html"><div class="card"><img src="https://pic.in.th/image/6.5DZKn9"></div></a>
+<a href="1.html"><div class="card"><img src="pic/1.jpg"></div></a>
+<a href="2.html"><div class="card"><img src="pic/2.jpg"></div></a>
+<a href="3.html"><div class="card"><img src="pic/3.jpg"></div></a>
+<a href="4.html"><div class="card"><img src="pic/4.jpg"></div></a>
+<a href="5.html"><div class="card"><img src="pic/5.jpg"></div></a>
+<a href="6.html"><div class="card"><img src="pic/6.jpg"></div></a>
 
-<a href="7.html"><div class="card"><img src="https://pic.in.th/image/7.5DZ7HN"></div></a>
-<a href="8.html"><div class="card"><img src="https://pic.in.th/image/8.5DZSG3"></div></a>
-<a href="9.html"><div class="card"><img src="https://pic.in.th/image/9.5DZxca"></div></a>
-<a href="10.html"><div class="card"><img src="https://pic.in.th/image/10.5DZXpD"></div></a>
-<a href="11.html"><div class="card"><img src="https://pic.in.th/image/11.5DZugf"></div></a>
-<a href="12.html"><div class="card"><img src="https://pic.in.th/image/12.5DZyKM"></div></a>
+<a href="7.html"><div class="card"><img src="pic/7.jpg"></div></a>
+<a href="8.html"><div class="card"><img src="pic/8.jpg"></div></a>
+<a href="9.html"><div class="card"><img src="pic/9.jpg"></div></a>
+<a href="10.html"><div class="card"><img src="pic/10.jpg"></div></a>
+<a href="11.html"><div class="card"><img src="pic/11.jpg"></div></a>
+<a href="12.html"><div class="card"><img src="pic/12.jpg"></div></a>
 
-<a href="13.html"><div class="card"><img src="https://pic.in.th/image/13.5DZwon"></div></a>
-<a href="14.html"><div class="card"><img src="https://pic.in.th/image/14.5DZjZt"></div></a>
-<a href="15.html"><div class="card"><img src="https://pic.in.th/image/15.5DZnFH"></div></a>
-<a href="16.html"><div class="card"><img src="https://pic.in.th/image/16.5DZ5ny"></div></a>
-<a href="17.html"><div class="card"><img src="https://pic.in.th/image/17.5DZ6IC"></div></a>
-<a href="18.html"><div class="card"><img src="https://pic.in.th/image/18.5DZDGv"></div></a>
+<a href="13.html"><div class="card"><img src="pic/13.jpg"></div></a>
+<a href="14.html"><div class="card"><img src="pic/14.jpg"></div></a>
+<a href="15.html"><div class="card"><img src="pic/15.jpg"></div></a>
+<a href="16.html"><div class="card"><img src="pic/16.jpg"></div></a>
+<a href="17.html"><div class="card"><img src="pic/17.jpg"></div></a>
+<a href="18.html"><div class="card"><img src="pic/18.jpg"></div></a>
 
-<a href="19.html"><div class="card"><img src="https://pic.in.th/image/19.5DZoYh"></div></a>
-<a href="20.html"><div class="card"><img src="https://pic.in.th/image/20.5DZNgW"></div></a>
-<a href="21.html"><div class="card"><img src="https://pic.in.th/image/21.5DZVKK"></div></a>
-<a href="22.html"><div class="card"><img src="https://pic.in.th/image/22.5DZW0z"></div></a>
-<a href="23.html"><div class="card"><img src="https://pic.in.th/image/23.5DZpZo"></div></a>
-<a href="24.html"><div class="card"><img src="https://pic.in.th/image/24.5DZv5T"></div></a>
+<a href="19.html"><div class="card"><img src="pic/19.jpg"></div></a>
+<a href="20.html"><div class="card"><img src="pic/20.jpg"></div></a>
+<a href="21.html"><div class="card"><img src="pic/21.jpg"></div></a>
+<a href="22.html"><div class="card"><img src="pic/22.jpg"></div></a>
+<a href="23.html"><div class="card"><img src="pic/23.jpg"></div></a>
+<a href="24.html"><div class="card"><img src="pic/24.jpg"></div></a>
 
-<a href="25.html"><div class="card"><img src="https://pic.in.th/image/25.5DZkI6"></div></a>
-<a href="26.html"><div class="card"><img src="https://pic.in.th/image/26.5DZBO4"></div></a>
-<a href="27.html"><div class="card"><img src="https://pic.in.th/image/27.5DZHcR"></div></a>
-<a href="28.html"><div class="card"><img src="https://pic.in.th/image/28.5DZIYE"></div></a>
-<a href="29.html"><div class="card"><img src="https://pic.in.th/image/29.5DZbhO"></div></a>
-<a href="30.html"><div class="card"><img src="https://pic.in.th/image/30.5DaMKA"></div></a>
+<a href="25.html"><div class="card"><img src="pic/25.jpg"></div></a>
+<a href="26.html"><div class="card"><img src="pic/26.jpg"></div></a>
+<a href="27.html"><div class="card"><img src="pic/27.jpg"></div></a>
+<a href="28.html"><div class="card"><img src="pic/28.jpg"></div></a>
+<a href="29.html"><div class="card"><img src="pic/29.jpg"></div></a>
+<a href="30.html"><div class="card"><img src="pic/30.jpg"></div></a>
 
-<a href="31.html"><div class="card"><img src="https://pic.in.th/image/31.5Dad0c"></div></a>
-<a href="32.html"><div class="card"><img src="https://pic.in.th/image/32.5Daafp"></div></a>
-<a href="33.html"><div class="card"><img src="https://pic.in.th/image/33.5Dagu3"></div></a>
-<a href="34.html"><div class="card"><img src="https://pic.in.th/image/34.5Dar5L"></div></a>
-<a href="35.html"><div class="card"><img src="https://pic.in.th/image/35.5DazR9"></div></a>
-<a href="36.html"><div class="card"><img src="https://pic.in.th/image/36.5Da9ON"></div></a>
+<a href="31.html"><div class="card"><img src="pic/31.jpg"></div></a>
+<a href="32.html"><div class="card"><img src="pic/32.jpg"></div></a>
+<a href="33.html"><div class="card"><img src="pic/33.jpg"></div></a>
+<a href="34.html"><div class="card"><img src="pic/34.jpg"></div></a>
+<a href="35.html"><div class="card"><img src="pic/35.jpg"></div></a>
+<a href="36.html"><div class="card"><img src="pic/36.jpg"></div></a>
 
 </div>
 </div>
 
 <footer>
-© 2569 นักเรียนชั้นมัธยมศึกษาปีที่ 4/5<br>
-โรงเรียนเตรียมอุดมศึกษาพัฒนาการปราณบุรี
+© 2569 นักเรียนชั้นมัธยมศึกษาปีที่ 4/5
 </footer>
 
 </body>
